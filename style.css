@@ -17,6 +17,7 @@ nav{
     top: 0;
     left: 0;
     z-index: 1000;
+    background-color: #fff;
 }
 nav img{
     height: 50px;
@@ -100,5 +101,59 @@ header > div{
 }
 #header-png > img{
     height: 450px;
-    margin: 40px 165px;
+    margin: 40px 163px;
+}
+
+.quiz-section{
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.quiz-section > h1{
+    text-align: center;
+    font-family:'Mukta', sans-serif;
+    font-size: 34px;
+}
+
+.quiz-section > p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    color: rgb(165, 165, 165);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Statistics-container{
+    height: auto;
+    padding: 10px;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap-reverse;
+}
+.Statistics-container > div{
+    height:300px;
+    width: 300px;
+    text-align: center;
+   
+}
+.icon{
+    font-size:50px;
+    border: 2px solid #4b4b4b;
+    padding: 30px;
+    border-radius: 360px;
+    margin-top:40px ;
+}
+.counting_value{
+
+    color: rgb(28, 89, 221);
+    font-family:'Mukta', sans-serif ;
+    font-size: 50px;
+}
+.stactics-para{
+    font-family: 'Reddit Sans Condensed',sans-serif;
+
 }
