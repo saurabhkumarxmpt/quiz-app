@@ -237,3 +237,68 @@ background: linear-gradient(120deg, rgba(193,4,230,1) 19%, rgba(0,212,255,1) 100
     background-color: #fff;
     color: #000;
 }
+.about{
+    height: auto;
+    width: 100%;
+    display: flex;
+    gap: 1px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about > div{
+    height: 500px;
+    width: 50%;
+
+}
+
+.about > div >h1{
+    font-size: 40px;
+    font-family: 'Mukta', sans-serif;
+    margin: 70px 70px;
+}
+.about > div > p{
+    text-align: left;
+    font-family:'Reddit Sans Condensed',sans-serif  ;
+    font-size: 20px;
+    margin: -40px 70px;
+}
+.about > div > img{
+    height: 540px;
+    margin-left: 40px;
+}
+.about > div > a > button{
+    height: 40px;
+    width: 140px;
+    border: 2px solid blue;
+    background:none;
+    margin: 90px 70px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 17px;
+    transition: 0.4s all;
+}
+
+.about > div > a > button:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+footer{
+    height: 100px;
+    border-top: 1px solid #000;
+
+}
+footer > p{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 28px;
+    padding-top: 30px;
+}
+footer > a{
+    float: right;
+    margin: -30px 120px ;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
