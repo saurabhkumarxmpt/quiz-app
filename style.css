@@ -4,6 +4,7 @@
     box-sizing: border-box;
     z-index: 1;
     font-family:'Arial' ;
+    scroll-behavior: smooth;
 }
 header{
      width: 100%;
@@ -297,7 +298,7 @@ footer > p{
 }
 footer > a{
     float: right;
-    margin: -30px 120px ;
+    margin: -40px 120px ;
     text-decoration: none;
     color: #000;
     font-size: 24px;
